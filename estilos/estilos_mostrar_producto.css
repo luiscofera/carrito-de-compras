@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+.referencia{
+	font-family: poppins;
+}
+.referencia ul{
+	display: flex;
+}
+.referencia ul li{
+	list-style-type: none;
+	border: 1px solid gray;
+	padding: 5px 10px;
+	color: gray;
+	font-size: 12px;
+}
+#prod_mostrados{
+	font-family: poppins;
+	width: 70%;
+	height: 500px;
+	margin: 10px auto;
+	display: flex;
+}
+#prod_mostrados img{
+	width: 50%;
+	height: 100%;
+}
+.prod_mostrados_derecha{
+	display: flex;
+	width: 50%;
+	padding: 20px;
+	height: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

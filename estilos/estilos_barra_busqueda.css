@@ -1,0 +1,181 @@
+@import url(http://fonts.googleapis.com/css?family=Cabin:400);
+
+
+.webdesigntuts-workshop form {
+	/*barra de busqueda, colores de fondo*/
+	width: 100%;
+	background: #193167;
+	/*barra de busqueda, colores de fondo*/
+	background: -webkit-linear-gradient(#284da4, #284da4);
+	background: -moz-linear-gradient(#284da4, #284da4);
+	background: -o-linear-gradient(#284da4, #284da4);
+	background: -ms-linear-gradient(#284da4, #284da4);
+	background: linear-gradient(#284da4, #284da4);
+	
+	box-shadow: inset 0 0 0 1px #193167;
+	display: flex;
+	flex-direction: row;
+	font-size: 0px;
+	position: relative;
+	z-index: 1;
+	padding: 0 20px;
+}
+
+.webdesigntuts-workshop .txtbusqueda {
+	width: 70%;
+	background: #fff;
+	margin-right: 12px;
+	background: -webkit-linear-gradient(#fff, #fff);	
+	background: -moz-linear-gradient(#fff, #fff);	
+	background: -o-linear-gradient(#fff, #fff);	
+	background: -ms-linear-gradient(#fff, #fff);	
+	background: linear-gradient(#fff, #fff);	
+	border-radius: 30px;
+	box-shadow: 0 2px 0 #000;
+	color: #888;
+	font-family: 'Cabin', helvetica, arial, sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	height: 50px;
+	padding-left: 20px;
+	text-shadow: 0 -1px 0 #000;
+}
+
+.webdesigntuts-workshop .txtbusqueda::-webkit-.txtbusqueda-placeholder {
+   color: #888;
+}
+
+.webdesigntuts-workshop .txtbusqueda:-moz-placeholder {
+   color: #888;
+}
+
+.webdesigntuts-workshop .txtbusqueda:focus {
+	-webkit-animation: glow 800ms ease-out infinite alternate;
+	-moz-animation: glow 800ms ease-out infinite alternate;
+	-o-animation: glow 800ms ease-out infinite alternate;
+	-ms-animation: glow 800ms ease-out infinite alternate;
+	animation: glow 800ms ease-out infinite alternate;
+	background: #193167;
+	background: -webkit-linear-gradient(#fff, #fff);
+	background: -moz-linear-gradient(#fff, #fff);
+	background: -o-linear-gradient(#fff, #fff);
+	background: -ms-linear-gradient(#fff, #fff);
+	background: linear-gradient(#fff, #fff);
+	border-color: #393;
+	box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;
+	color: #000;
+	outline: none;
+}
+
+.webdesigntuts-workshop .txtbusqueda:focus::-webkit-.txtbusqueda-placeholder { 
+	color: #efe;
+}
+
+.webdesigntuts-workshop .txtbusqueda:focus:-moz-placeholder {
+	color: #efe;
+}
+
+.webdesigntuts-workshop .boton_buscar {
+	background: #193167;
+	background: -webkit-linear-gradient(#193167, #234390);
+	background: -moz-linear-gradient(#193167, #234390);
+	background: -o-linear-gradient(#193167, #234390);
+	background: -ms-linear-gradient(#193167, #234390);
+	background: linear-gradient(#193167, #234390);
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-o-box-sizing: content-box;
+	-ms-box-sizing: content-box;
+	box-sizing: content-box;
+	border: 1px solid #444;
+	border-left-color: #000;
+	border-radius: 0 5px 5px 0;
+	box-shadow: 0 2px 0 #000;
+	color: #fff;
+	font-family: 'Cabin', helvetica, arial, sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	height: 40px;
+	line-height: 40px;
+	text-shadow: 0 -1px 0 #000;
+	width: 30%;
+}	
+
+.webdesigntuts-workshop .boton_buscar:hover,
+.webdesigntuts-workshop .boton_buscar:focus {
+	background: #193167;
+	background: -webkit-linear-gradient(#393939, #292929);	
+	background: -moz-linear-gradient(#393939, #292929);	
+	background: -o-linear-gradient(#393939, #292929);	
+	background: -ms-linear-gradient(#393939, #292929);	
+	background: linear-gradient(#393939, #292929);
+	color: #5f5;
+	outline: none;
+	cursor: pointer;
+}
+
+.webdesigntuts-workshop .boton_buscar:active {
+	background: #193167;
+	background: -webkit-linear-gradient(#393939, #292929);
+	background: -moz-linear-gradient(#393939, #292929);
+	background: -o-linear-gradient(#393939, #292929);
+	background: -ms-linear-gradient(#393939, #292929);
+	background: linear-gradient(#393939, #292929);
+	box-shadow: 0 1px 0 #000, inset 1px 0 1px #222;
+	top: 1px;
+}
+
+@-webkit-keyframes glow {
+    0% {
+		border-color: #4ddbff4ddbff;
+		box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;
+    }	
+    100% {
+		border-color: #4ddbff4ddbff;
+		box-shadow: 0 0 20px rgba(0,255,0,.6), inset 0 0 10px rgba(0,255,0,.4), 0 2px 0 #000;
+    }
+}
+
+@-moz-keyframes glow {
+    0% {
+		border-color: #4ddbff4ddbff;
+		box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;
+    }	
+    100% {
+		border-color: #4ddbff4ddbff;
+		box-shadow: 0 0 20px rgba(0,255,0,.6), inset 0 0 10px rgba(0,255,0,.4), 0 2px 0 #000;
+    }
+}
+
+@-o-keyframes glow {
+    0% {
+		border-color: #4ddbff4ddbff;
+		box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;
+    }	
+    100% {
+		border-color: #4ddbff;
+		box-shadow: 0 0 20px rgba(0,255,0,.6), inset 0 0 10px rgba(0,255,0,.4), 0 2px 0 #000;
+    }
+}
+
+@-ms-keyframes glow {
+    0% {
+		border-color: #4ddbff;
+		box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;
+    }	
+    100% {
+		border-color: #4ddbff;
+		box-shadow: 0 0 20px rgba(0,255,0,.6), inset 0 0 10px rgba(0,255,0,.4), 0 2px 0 #000;
+    }
+}
+
+@keyframes glow {
+    0% {
+		border-color: #4ddbff;
+		box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;
+    }	
+    100% {
+		border-color: #4ddbff;
+		box-shadow: 0 0 20px rgba(0,255,0,.6), inset 0 0 10px rgba(0,255,0,.4), 0 2px 0 #000;
+	}
+}
